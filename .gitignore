@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# To prevent personal detail leak
+# To add data for tests, please use .txt
+# Data Store
+*.dat
