@@ -1,0 +1,19 @@
+name: Style Checking
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  style-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run style checks
+        run: |
+          # Your style checking commands here
+          # For example: pylint, flake8, or clang-format
