@@ -1,4 +1,4 @@
-name: Run Performance Tests
+name: Performance Tests
 
 on: [push, pull_request]
 

@@ -1,4 +1,4 @@
-name: Error Return Checking
+name: General Test
 
 on:
   push:

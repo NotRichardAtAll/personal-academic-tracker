@@ -1,4 +1,4 @@
-name: Style Checking
+name: E2E Test
 
 on:
   push:
